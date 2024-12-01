@@ -3,6 +3,7 @@ package model.expressions;
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
 import model.adt.IMyDict;
+import model.adt.IMyHeap;
 import model.types.BoolType;
 import model.values.BoolValue;
 import model.values.IValue;
@@ -19,9 +20,9 @@ public class LogicalExpression implements IExpression{
     }
 
     @Override
-    public IValue evaluate(IMyDict<String, IValue> tbl) throws ExpressionExceptions, ADTException {
-        IValue val1 = this.exp1.evaluate(tbl);
-        IValue val2 = this.exp2.evaluate(tbl);
+    public BoolValue evaluate(IMyDict<String, IValue> tbl, IMyHeap heap) throws ExpressionExceptions, ADTException {
+        IValue val1 = this.exp1.evaluate(tbl, heap);
+        IValue val2 = this.exp2.evaluate(tbl, heap);
 
         if (!val1.getType().equals(new BoolType())) {
             throw new ExpressionExceptions("First operand is not a boolean");

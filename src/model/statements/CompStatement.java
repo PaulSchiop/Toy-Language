@@ -4,8 +4,6 @@ import model.state.PrgState;
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
 import exceptions.StatementException;
-import model.values.IValue;
-import model.expressions.IExpression;
 
 import java.io.IOException;
 

@@ -4,17 +4,17 @@ import model.adt.IMyDict;
 import model.adt.IMyHeap;
 import model.values.BoolValue;
 import model.values.IValue;
-import model.values.IntValue;
-import model.types.IntType;
 import exceptions.ExpressionExceptions;
 import exceptions.ADTException;
+import model.values.IntValue;
+import model.types.IntType;
 
-public class AritmeticalExpression implements IExpression {
+public class RelationalExperssion implements IExpression{
     private IExpression exp1;
     private IExpression exp2;
-    private AritmeticalOperator op;
+    private RelationalOperator op;
 
-    public AritmeticalExpression(IExpression exp1, IExpression exp2, AritmeticalOperator op) {
+    public RelationalExperssion(IExpression exp1, IExpression exp2, RelationalOperator op) {
         this.exp1 = exp1;
         this.exp2 = exp2;
         this.op = op;
@@ -36,17 +36,18 @@ public class AritmeticalExpression implements IExpression {
         IntValue intVal2 = (IntValue) val2;
 
         switch (this.op) {
-            case ADD:
-                return new IntValue(intVal1.getValue() + intVal2.getValue());
-            case SUB:
-                return new IntValue(intVal1.getValue() - intVal2.getValue());
-            case MUL:
-                return new IntValue(intVal1.getValue() * intVal2.getValue());
-            case DIV:
-                if (intVal2.getValue() == 0) {
-                    throw new ExpressionExceptions("Division by zero");
-                }
-                return new IntValue(intVal1.getValue() / intVal2.getValue());
+            case SMALLER:
+                return new IntValue(intVal1.getValue() < intVal2.getValue() ? 1 : 0);
+            case SMALLER_OR_EQUAL:
+                return new IntValue(intVal1.getValue() <= intVal2.getValue() ? 1 : 0);
+            case EQUAL:
+                return new IntValue(intVal1.getValue() == intVal2.getValue() ? 1 : 0);
+            case NOT_EQUAL:
+                return new IntValue(intVal1.getValue() != intVal2.getValue() ? 1 : 0);
+            case GREATER:
+                return new IntValue(intVal1.getValue() > intVal2.getValue() ? 1 : 0);
+            case GREATER_OR_EQUAL:
+                return new IntValue(intVal1.getValue() >= intVal2.getValue() ? 1 : 0);
             default:
                 throw new ExpressionExceptions("Invalid operator");
         }
@@ -59,6 +60,6 @@ public class AritmeticalExpression implements IExpression {
 
     @Override
     public IExpression deepCopy() {
-        return new AritmeticalExpression(this.exp1.deepCopy(), this.exp2.deepCopy(), this.op);
+        return new RelationalExperssion(this.exp1.deepCopy(), this.exp2.deepCopy(), this.op);
     }
 }

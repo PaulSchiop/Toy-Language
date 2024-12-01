@@ -10,7 +10,7 @@ public class StringType implements IType{
     }
 
     public String toString() {
-        return "string";
+        return "String";
     }
 
     @Override

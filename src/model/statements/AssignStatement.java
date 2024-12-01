@@ -23,7 +23,7 @@ public class AssignStatement implements IStatement{
             throw new StatementException("Variable " + id + " is not defined");
         }
         IValue val = state.getSymTable().getValue(this.id);
-        IValue eval = this.exp.evaluate(state.getSymTable());
+        IValue eval = this.exp.evaluate(state.getSymTable(), state.getHeap());
         if (!val.getType().equals(eval.getType())) {
             throw new StatementException("Types do not match");
         }

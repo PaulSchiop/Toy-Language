@@ -15,22 +15,25 @@ public class PrgState {
     private IMyList<String> out;
     private IStatement originalProgram;
     private IMyDict<StringValue, BufferedReader> fileTable;
+    private IMyHeap heap;
 
     public PrgState(IStatement st){
         this.exeStack = new MyStack<>();
         this.symTable = new MyDictionary<>();
         this.out = new MyList<>();
         this.fileTable = new MyDictionary<>();
+        this.heap = new MyHeap();
         exeStack.push(st);
     }
 
-    public PrgState(IMyStack<IStatement> exeStack, IMyDict<String, IValue> symTable, IMyList<String> out, IStatement originalProgram, IMyDict<StringValue, BufferedReader> fileTable) {
+    public PrgState(IMyStack<IStatement> exeStack, IMyDict<String, IValue> symTable, IMyList<String> out, IMyHeap heap, IStatement originalProgram, IMyDict<StringValue, BufferedReader> fileTable) {
         this.exeStack = exeStack;
         this.symTable = symTable;
         this.out = out;
         this.originalProgram = originalProgram.deepCopy();
         exeStack.push(originalProgram);
         this.fileTable = fileTable;
+        this.heap = heap;
     }
 
     public IMyDict<String, IValue> getSymTable() {
@@ -43,6 +46,10 @@ public class PrgState {
 
     public IMyList<String> getOut() {
         return this.out;
+    }
+
+    public IMyHeap getHeap() {
+        return this.heap;
     }
 
     public String fileTableToString() {
@@ -66,7 +73,8 @@ public class PrgState {
         return "ExeStack: " + exeStack.toString() + "\n" +
                 "SymTable: " + symTable.toString() + "\n" +
                 "Out: " + out.toString() + "\n" +
-                "FileTable: " + fileTable.toString() + "\n";
+                "FileTable: " + fileTable.toString() + "\n"+
+                "Heap: " + heap.toString() + "\n";
     }
 
 }

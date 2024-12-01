@@ -2,6 +2,8 @@ package model.expressions;
 
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
+import model.adt.IMyHeap;
+import model.values.BoolValue;
 import model.values.IValue;
 import model.adt.IMyDict;
 
@@ -13,7 +15,7 @@ public class VariableExpression implements IExpression{
     }
 
     @Override
-    public IValue evaluate(IMyDict<String, IValue> tbl) throws ExpressionExceptions, ADTException {
+    public IValue evaluate(IMyDict<String, IValue> tbl, IMyHeap heap) throws ExpressionExceptions, ADTException {
         return tbl.getValue(id);
     }
 

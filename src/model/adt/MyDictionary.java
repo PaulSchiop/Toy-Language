@@ -2,6 +2,7 @@ package model.adt;
 
 import exceptions.KeyNotFoundExc;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -46,8 +47,20 @@ public class MyDictionary<K,V> implements IMyDict<K,V> {
     public String toString() {
         StringBuilder str = new StringBuilder();
         for (K key : this.dict.keySet()) {
-            str.append(key.toString()).append(" -> ").append(this.dict.get(key).toString()).append("\n");
+            Object value = this.dict.get(key);
+            str.append(key.toString()).append(" -> ")
+                    .append(value != null ? value.toString() : "null") // Handle null values
+                    .append("\n");
         }
         return "My dictionary: " + str;
+    }
+
+    Map<K,V> getDict() {
+        return this.dict;
+    }
+
+    @Override
+    public Collection<V> getValues() {
+        return this.dict.values();
     }
 }

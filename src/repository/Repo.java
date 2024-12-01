@@ -1,17 +1,26 @@
 package repository;
 
+import model.expressions.IExpression;
 import model.state.PrgState;
+import exceptions.RepoException;
 
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
+import java.io.FileWriter;
+import model.state.PrgState;
 
 public class Repo implements IRepo {
     private List<PrgState> programs;
-    private int currentProgram;
+    private PrgState currentProgram;
+    private String logFileName;
 
-    public Repo() {
+    public Repo(String logFileName) {
         this.programs = new LinkedList<>();
-        this.currentProgram = 0;
+        this.logFileName = logFileName;
     }
 
     @Override
@@ -27,5 +36,16 @@ public class Repo implements IRepo {
     @Override
     public void addPrgState(PrgState prg) {
         this.programs.add(prg);
+    }
+
+    @Override
+    public void logPrgStateExec() {
+        try{
+            PrintWriter logFile = new PrintWriter(new BufferedWriter(new FileWriter(this.logFileName, true)));
+            logFile.println(this.getCurrentProgram().toString());
+            logFile.close();
+        } catch (IOException e) {
+            throw new RepoException("Could not open log file");
+        }
     }
 }

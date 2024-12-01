@@ -1,12 +1,12 @@
 package model.expressions;
-import model.statements.IStatement;
-import model.state.PrgState;
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
+import model.values.BoolValue;
 import model.values.IValue;
 import model.adt.IMyDict;
+import model.adt.IMyHeap;
 
 public interface IExpression {
-    IValue evaluate(IMyDict<String, IValue> tbl) throws ExpressionExceptions, ADTException;
+    IValue evaluate(IMyDict<String, IValue> tbl, IMyHeap hp) throws ExpressionExceptions, ADTException;
     IExpression deepCopy();
 }

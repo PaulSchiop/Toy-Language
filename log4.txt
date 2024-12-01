@@ -1,0 +1,160 @@
+ExeStack: My stack: String varf; varf = test.in; openRFile(varf); int varc; ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+
+ExeStack: My stack: varf = test.in; openRFile(varf); int varc; ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+String varf
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+
+ExeStack: My stack: varf = test.in; openRFile(varf); int varc; ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+
+SymTable: My dictionary: varf -> 
+
+Out: My list: 
+FileTable: My dictionary: 
+
+ExeStack: My stack: openRFile(varf); int varc; ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+varf = test.in
+
+SymTable: My dictionary: varf -> 
+
+Out: My list: 
+FileTable: My dictionary: 
+
+ExeStack: My stack: openRFile(varf); int varc; ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+
+Out: My list: 
+FileTable: My dictionary: 
+
+ExeStack: My stack: int varc; ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+openRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+
+Out: My list: 
+FileTable: My dictionary: 
+
+ExeStack: My stack: int varc; ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+
+Out: My list: 
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+int varc
+
+SymTable: My dictionary: varf -> test.in
+
+Out: My list: 
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: ReadFile(varf, varc); print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 0
+
+Out: My list: 
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+ReadFile(varf, varc)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 0
+
+Out: My list: 
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: print(varc); ReadFile(varf, varc); print(varc); closeRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 15
+
+Out: My list: 
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: ReadFile(varf, varc); print(varc); closeRFile(varf)
+print(varc)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 15
+
+Out: My list: 
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: ReadFile(varf, varc); print(varc); closeRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 15
+
+Out: My list: 15
+
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: print(varc); closeRFile(varf)
+ReadFile(varf, varc)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 15
+
+Out: My list: 15
+
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: print(varc); closeRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 50
+
+Out: My list: 15
+
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: closeRFile(varf)
+print(varc)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 50
+
+Out: My list: 15
+
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: closeRFile(varf)
+
+SymTable: My dictionary: varf -> test.in
+varc -> 50
+
+Out: My list: 15
+50
+
+FileTable: My dictionary: test.in -> java.io.BufferedReader@5a2e4553
+
+
+ExeStack: My stack: 
+SymTable: My dictionary: varf -> test.in
+varc -> 50
+
+Out: My list: 15
+50
+
+FileTable: My dictionary: 
+

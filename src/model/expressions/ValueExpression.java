@@ -1,6 +1,8 @@
 package model.expressions;
 
 import model.adt.IMyDict;
+import model.adt.IMyHeap;
+import model.values.BoolValue;
 import model.values.IValue;
 
 public class ValueExpression implements IExpression{
@@ -11,7 +13,7 @@ public class ValueExpression implements IExpression{
     }
 
     @Override
-    public IValue evaluate(IMyDict<String, IValue> tbl) {
+    public IValue evaluate(IMyDict<String, IValue> tbl, IMyHeap heap) {
         return value;
     }
 

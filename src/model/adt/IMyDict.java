@@ -1,7 +1,9 @@
 package model.adt;
 import exceptions.KeyNotFoundExc;
+import model.values.IValue;
 
 import java.util.Collection;
+import java.util.Map;
 import java.util.Set;
 
 public interface IMyDict<Key, Value>{
@@ -11,4 +13,6 @@ public interface IMyDict<Key, Value>{
     boolean containsKey(Key key);
     Set<Key> getKeys();
     Collection<Value> getValues();
+
+    Map<IValue, IValue> getContent();
 }

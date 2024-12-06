@@ -5,6 +5,7 @@ import model.state.PrgState;
 import exceptions.*;
 import model.values.IValue;
 import model.values.RefValue;
+import model.types.IType;
 
 import java.io.IOException;
 
@@ -19,9 +20,9 @@ public class HeapAllocStatement implements IStatement{
 
     @Override
     public PrgState execute(PrgState state) throws StatementException, ExpressionExceptions, IOException, ADTException {
-        if (state.getSymTable().containsKey(this.varName)) {
+        /*if (state.getSymTable().containsKey(this.varName)) {
             throw new StatementException("Variable already defined in the symbol table");
-        }
+        }*/
 
         IValue val = state.getSymTable().getValue(this.varName);
         if(!(val instanceof RefValue)) {
@@ -29,8 +30,9 @@ public class HeapAllocStatement implements IStatement{
         }
 
         IValue expVal = exp.evaluate(state.getSymTable(), state.getHeap());
-        if (!val.getType().equals(expVal.getType())) {
-            throw new StatementException("The type of the expression must be the same as the location type");
+        IType LocationType = ((RefValue)state.getSymTable().getValue(varName)).getLocationType();
+        if(!expVal.getType().equals(LocationType)) {
+            throw new StatementException("The type of the variable must be the same as the location type");
         }
 
         int address = state.getHeap().allocate(expVal);

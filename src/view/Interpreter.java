@@ -119,12 +119,156 @@ public class Interpreter {
         Controller ctrl4 = new Controller(repo4, true);
         ctrl4.addProgram(ex4);
 
+        /// Ref int v; new(v,20); Ref Ref int a; new(a,v); print(v); print(a)
+        IStatement ex5 = new CompStatement(
+                new VariableDeclarationStatement("v", new model.types.RefType(new IntType())),
+                new CompStatement(
+                        new HeapAllocStatement("v", new ValueExpression(new IntValue(20))),
+                        new CompStatement(
+                                new VariableDeclarationStatement("a", new model.types.RefType(new model.types.RefType(new IntType()))),
+                                new CompStatement(
+                                        new HeapAllocStatement("a", new VariableExpression("v")),
+                                        new CompStatement(
+                                                new PrintStatement(new VariableExpression("v")),
+                                                new PrintStatement(new VariableExpression("a"))
+                                        )
+                                )
+                        )
+                )
+        );
+        PrgState prg5 = new PrgState(ex5);
+        IRepo repo5 = new Repo("log5.txt");
+        Controller ctrl5 = new Controller(repo5, true);
+        ctrl5.addProgram(ex5);
+
+        //Ref int v; new(v,20); Ref Ref int a; new(a,v); print(rH(v)); print(rH(rH(a))+5)
+        IStatement ex6 = new CompStatement(
+                new VariableDeclarationStatement("v", new model.types.RefType(new IntType())),
+                new CompStatement(
+                        new HeapAllocStatement("v", new ValueExpression(new IntValue(20))),
+                        new CompStatement(
+                                new VariableDeclarationStatement("a", new model.types.RefType(new model.types.RefType(new IntType()))),
+                                new CompStatement(
+                                        new HeapAllocStatement("a", new VariableExpression("v")),
+                                        new CompStatement(
+                                                new PrintStatement(new HeapReadExpression(new VariableExpression("v"))),
+                                                new PrintStatement(
+                                                        new AritmeticalExpression(
+                                                                new HeapReadExpression(
+                                                                        new HeapReadExpression(new VariableExpression("a"))
+                                                                ),
+                                                                new ValueExpression(new IntValue(5)),
+                                                                AritmeticalOperator.ADD
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+        PrgState prg6 = new PrgState(ex6);
+        IRepo repo6 = new Repo("log6.txt");
+        Controller ctrl6 = new Controller(repo6, true);
+        ctrl6.addProgram(ex6);
+
+        //Ref int v; new(v,20); print(rH(v)); wH(v,30); print(rH(v)+5);
+        IStatement ex7 = new CompStatement(
+                new VariableDeclarationStatement("v", new model.types.RefType(new IntType())),
+                new CompStatement(
+                        new HeapAllocStatement("v", new ValueExpression(new IntValue(20))),
+                        new CompStatement(
+                                new PrintStatement(new HeapReadExpression(new VariableExpression("v"))),
+                                new CompStatement(
+                                        new HeapWriteStatement("v", new ValueExpression(new IntValue(30))),
+                                        new PrintStatement(
+                                                new AritmeticalExpression(
+                                                        new HeapReadExpression(new VariableExpression("v")),
+                                                        new ValueExpression(new IntValue(5)),
+                                                        AritmeticalOperator.ADD
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+        PrgState prg7 = new PrgState(ex7);
+        IRepo repo7 = new Repo("log7.txt");
+        Controller ctrl7 = new Controller(repo7, true);
+        ctrl7.addProgram(ex7);
+
+        //Ref int v; new(v,20); Ref Ref int a; new(a,v); new(v,30); print(rH(rH(a)))
+        IStatement ex8 = new CompStatement(
+                new VariableDeclarationStatement("v", new model.types.RefType(new IntType())),
+                new CompStatement(
+                        new HeapAllocStatement("v", new ValueExpression(new IntValue(20))),
+                        new CompStatement(
+                                new VariableDeclarationStatement("a", new model.types.RefType(new model.types.RefType(new IntType()))),
+                                new CompStatement(
+                                        new HeapAllocStatement("a", new VariableExpression("v")),
+                                        new CompStatement(
+                                                new HeapAllocStatement("v", new ValueExpression(new IntValue(30))),
+                                                new PrintStatement(
+                                                        new HeapReadExpression(
+                                                                new HeapReadExpression(new VariableExpression("a"))
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+        PrgState prg8 = new PrgState(ex8);
+        IRepo repo8 = new Repo("log8.txt");
+        Controller ctrl8 = new Controller(repo8, true);
+        ctrl8.addProgram(ex8);
+
+        //int v = 4; (while (v > 0) print(v); v = v - 1); print(v)
+        IStatement ex9 = new CompStatement(
+                new VariableDeclarationStatement("v", new IntType()), // int v;
+                new CompStatement(
+                        new AssignStatement("v", new ValueExpression(new IntValue(4))), // v = 4;
+                        new CompStatement(
+                                new WhileStatement(
+                                        new RelationalExperssion( // while (v > 0)
+                                                new VariableExpression("v"),
+                                                new ValueExpression(new IntValue(0)),
+                                                RelationalOperator.GREATER
+                                        ),
+                                        new CompStatement(
+                                                new PrintStatement(new VariableExpression("v")), // print(v);
+                                                new AssignStatement(
+                                                        "v",
+                                                        new AritmeticalExpression( // v = v - 1;
+                                                                new VariableExpression("v"),
+                                                                new ValueExpression(new IntValue(1)),
+                                                                AritmeticalOperator.SUB
+                                                        )
+                                                )
+                                        )
+                                ),
+                                new PrintStatement(new VariableExpression("v")) // print(v);
+                        )
+                )
+        );
+
+        PrgState prg9 = new PrgState(ex6);
+        IRepo repo9 = new Repo("log9.txt");
+        Controller ctrl9 = new Controller(repo9, true);
+        ctrl9.addProgram(ex9);
+
+
+
         TextMenu menu = new TextMenu();
         menu.addCommand(new ExitCommand("0", "exit"));
         menu.addCommand(new RunExample("1", ex1.toString(), ctrl1));
         menu.addCommand(new RunExample("2", ex2.toString(), ctrl2));
         menu.addCommand(new RunExample("3", ex3.toString(), ctrl3));
         menu.addCommand(new RunExample("4", ex4.toString(), ctrl4));
+        menu.addCommand(new RunExample("5", ex5.toString(), ctrl5));
+        menu.addCommand(new RunExample("6", ex6.toString(), ctrl6));
+        menu.addCommand(new RunExample("7", ex7.toString(), ctrl7));
+        menu.addCommand(new RunExample("8", ex8.toString(), ctrl8));
+        menu.addCommand(new RunExample("9", ex9.toString(), ctrl9));
 
         menu.show();
     }

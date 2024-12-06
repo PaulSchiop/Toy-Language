@@ -1,0 +1,89 @@
+ExeStack: My stack: int v; v = 2; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 2; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 2; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 2; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 2; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+v = 2
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+v = 2
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 2
+
+Out: My list: 2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 2
+
+Out: My list: 2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+

@@ -1,0 +1,1449 @@
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUB1}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 3
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 2
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+v = vSUB1
+
+SymTable: My dictionary: v -> 1
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUB1}
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 0
+
+Out: My list: 4
+3
+2
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+

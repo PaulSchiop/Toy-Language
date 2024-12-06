@@ -25,8 +25,8 @@ public class WhileStatement implements IStatement{
             throw new StatementException("Condition is not a boolean");
         }
         if (((BoolValue)val).getVal()) {
-            state.getExeStack().push(stmt);
-            execute(state);
+            state.getExeStack().push(this);
+            state.getExeStack().push(this.stmt);
         }
         else{
             state.getExeStack().pop();
@@ -37,5 +37,10 @@ public class WhileStatement implements IStatement{
     @Override
     public IStatement deepCopy() {
         return new WhileStatement(this.exp.deepCopy(), this.stmt.deepCopy());
+    }
+
+    @Override
+    public String toString() {
+        return "while(" + this.exp.toString() + "){" + this.stmt.toString() + "}";
     }
 }

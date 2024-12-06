@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class Controller {
@@ -26,27 +27,11 @@ public class Controller {
         this.displayFlag = flag;
     }
 
-    Map<Integer, IValue> unsafeGarbageCollector(List<Integer> symTableAddr, Map<Integer, IValue> heap){
-        return heap.entrySet().stream()
-                .filter(e -> symTableAddr.contains(e.getKey()))
-                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-    }
-
-    List<Integer> getAddrFromSymTable(Collection<IValue> symTableValues){
-        return symTableValues.stream()
-                .filter(v -> v instanceof RefValue)
-                .map(v -> {RefValue v1 = (RefValue) v; return v1.getAddress();})
-                .collect(Collectors.toList());
-    }
-
-    void performGarbageCollection(PrgState state) {
-        IMyHeap heap = state.getHeap();
-        List<Integer> symTableAddresses = getAddrFromSymTable(state.getSymTable().getValues());
-        //move heap.getMap to a map
-        IMyMap<Integer, IValue> heapMap = heap.getMap();
-        Map<Integer, IValue> heapContent = heapMap.getContent();
-        Map<Integer, IValue> newHeapContent = unsafeGarbageCollector(symTableAddresses, heap.getMap().getContent());
-        heap.setContent(newHeapContent);
+    public void performGarbageCollection(PrgState state) {
+        List<Integer> symTableAddresses = GarbageCollector.getAddrFromSymTable(state.getSymTable().getContent().values());
+        List<Integer> reachableAddresses = GarbageCollector.getTransitiveAddresses(symTableAddresses, state.getHeap().getMap().getContent());
+        Map<Integer, IValue> cleanedHeap = GarbageCollector.unsafeGarbageCollector(reachableAddresses, state.getHeap().getMap().getContent());
+        state.getHeap().setContent(cleanedHeap);
     }
 
     public PrgState executeOneStep(PrgState state) throws EmptyStackExc, IOException {

@@ -63,4 +63,9 @@ public class MyDictionary<K,V> implements IMyDict<K,V> {
     public Collection<V> getValues() {
         return this.dict.values();
     }
+
+    @Override
+    public Map getContent() {
+        return this.dict;
+    }
 }

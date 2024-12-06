@@ -1,0 +1,194 @@
+ExeStack: My stack: Ref(int) v; new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: Ref(int) v; new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: new(v, 20); print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+ExeStack: My stack: print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+ExeStack: My stack: print(rH(v)); writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+ExeStack: My stack: writeHeap(v, 30); print(rH(v)ADD5)
+print(rH(v))
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+ExeStack: My stack: writeHeap(v, 30); print(rH(v)ADD5)
+print(rH(v))
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+ExeStack: My stack: writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 20
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+ExeStack: My stack: writeHeap(v, 30); print(rH(v)ADD5)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 20
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+ExeStack: My stack: print(rH(v)ADD5)
+writeHeap(v, 30)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 20
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+ExeStack: My stack: print(rH(v)ADD5)
+writeHeap(v, 30)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 20
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+

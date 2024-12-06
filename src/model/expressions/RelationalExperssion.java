@@ -25,33 +25,44 @@ public class RelationalExperssion implements IExpression{
         IValue val1 = this.exp1.evaluate(symTbl, heap);
         IValue val2 = this.exp2.evaluate(symTbl, heap);
 
-        if (!val1.getType().equals(new IntType())) {
+        if (!(val1.getType() instanceof IntType)) {
             throw new ExpressionExceptions("First operand is not an integer");
         }
-        if (!val2.getType().equals(new IntType())) {
+        if (!(val2.getType() instanceof IntType)) {
             throw new ExpressionExceptions("Second operand is not an integer");
         }
 
-        IntValue intVal1 = (IntValue) val1;
-        IntValue intVal2 = (IntValue) val2;
+        int intVal1 = ((IntValue) val1).getValue();
+        int intVal2 = ((IntValue) val2).getValue();
 
+        boolean result;
         switch (this.op) {
             case SMALLER:
-                return new IntValue(intVal1.getValue() < intVal2.getValue() ? 1 : 0);
+                result = intVal1 < intVal2;
+                break;
             case SMALLER_OR_EQUAL:
-                return new IntValue(intVal1.getValue() <= intVal2.getValue() ? 1 : 0);
-            case EQUAL:
-                return new IntValue(intVal1.getValue() == intVal2.getValue() ? 1 : 0);
-            case NOT_EQUAL:
-                return new IntValue(intVal1.getValue() != intVal2.getValue() ? 1 : 0);
+                result = intVal1 <= intVal2;
+                break;
             case GREATER:
-                return new IntValue(intVal1.getValue() > intVal2.getValue() ? 1 : 0);
+                result = intVal1 > intVal2;
+                break;
             case GREATER_OR_EQUAL:
-                return new IntValue(intVal1.getValue() >= intVal2.getValue() ? 1 : 0);
+                result = intVal1 >= intVal2;
+                break;
+            case EQUAL:
+                result = intVal1 == intVal2;
+                break;
+            case NOT_EQUAL:
+                result = intVal1 != intVal2;
+                break;
             default:
-                throw new ExpressionExceptions("Invalid operator");
+                throw new ExpressionExceptions("Invalid relational operator");
         }
+
+        return new BoolValue(result); // Return BoolValue instead of IntValue
     }
+
+
 
     @Override
     public String toString() {

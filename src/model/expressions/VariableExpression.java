@@ -15,9 +15,19 @@ public class VariableExpression implements IExpression{
     }
 
     @Override
-    public IValue evaluate(IMyDict<String, IValue> tbl, IMyHeap heap) throws ExpressionExceptions, ADTException {
-        return tbl.getValue(id);
+    public IValue evaluate(IMyDict<String, IValue> symTbl, IMyHeap heap) throws ExpressionExceptions, ADTException {
+        if (!symTbl.containsKey(this.id)) {
+            throw new ExpressionExceptions("Variable '" + this.id + "' is not defined");
+        }
+
+        IValue value = symTbl.getValue(this.id);
+        if (value == null) {
+            throw new ExpressionExceptions("Variable '" + this.id + "' has not been initialized");
+        }
+
+        return value;
     }
+
 
     @Override
     public IExpression deepCopy() {

@@ -2,6 +2,7 @@ package model.expressions;
 
 import model.adt.IMyDict;
 import model.adt.IMyHeap;
+import model.types.IType;
 import model.values.BoolValue;
 import model.values.IValue;
 
@@ -25,5 +26,10 @@ public class ValueExpression implements IExpression{
     @Override
     public String toString() {
         return value.toString();
+    }
+
+    @Override
+    public IType typeCheck(IMyDict<String, IType> typeEnv) {
+        return value.getType();
     }
 }

@@ -5,6 +5,7 @@ import exceptions.ExpressionExceptions;
 import model.adt.IMyDict;
 import model.adt.IMyHeap;
 import model.types.BoolType;
+import model.types.IType;
 import model.values.BoolValue;
 import model.values.IValue;
 
@@ -49,5 +50,18 @@ public class LogicalExpression implements IExpression{
     @Override
     public String toString() {
         return this.exp1.toString() + " " + this.op + " " + this.exp2.toString();
+    }
+
+    @Override
+    public IType typeCheck(IMyDict<String, IType> typeEnv) throws ExpressionExceptions {
+        IType type1 = exp1.typeCheck(typeEnv);
+        IType type2 = exp2.typeCheck(typeEnv);
+        if(type1.equals(new BoolType())) {
+            if(type2.equals(new BoolType())) {
+                return new BoolType();
+            }
+            throw new ExpressionExceptions("Second operand is not a boolean");
+        }
+        throw new ExpressionExceptions("First operand is not a boolean");
     }
 }

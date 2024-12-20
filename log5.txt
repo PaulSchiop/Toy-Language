@@ -628,3 +628,501 @@ Heap: Heap: My map: 1 -> 20
 2 -> (1, int)
 
 
+Program state id: 10
+ExeStack: My stack: Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+Ref(Ref(int)) a
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+Ref(Ref(int)) a
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+new(a, v)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+new(a, v)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+print(v)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+print(v)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: (1, int)
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: (1, int)
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: 
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: (1, int)
+(2, Ref(int))
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+Ref(int) v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+new(v, 20)
+
+SymTable: My dictionary: v -> (0, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: Ref(Ref(int)) a; new(a, v); print(v); print(a)
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+Ref(Ref(int)) a
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+Ref(Ref(int)) a
+
+SymTable: My dictionary: v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: new(a, v); print(v); print(a)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+new(a, v)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+new(a, v)
+
+SymTable: My dictionary: a -> (0, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(v); print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+print(v)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+print(v)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: (1, int)
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: print(a)
+
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: (1, int)
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+
+Program state id: 10
+ExeStack: My stack: 
+SymTable: My dictionary: a -> (2, Ref(int))
+v -> (1, int)
+
+Out: My list: (1, int)
+(2, Ref(int))
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 1 -> 20
+2 -> (1, int)
+
+

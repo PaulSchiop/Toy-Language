@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class MyDictionary<K,V> implements IMyDict<K,V> {
-    private Map<K,V> dict;
+    private final Map<K,V> dict;
 
     public MyDictionary(){
         this.dict = new HashMap<>();
@@ -21,9 +21,11 @@ public class MyDictionary<K,V> implements IMyDict<K,V> {
 
     @Override
     public V getValue(K key) throws KeyNotFoundExc {
-        if(!this.dict.containsKey(key))
-            throw new KeyNotFoundExc("Key not found in dictionary");
-        return this.dict.get(key);
+        synchronized (this.dict) {
+            if (!contains(key))
+                throw new KeyNotFoundExc("Key not found in dictionary");
+            return this.dict.get(key);
+        }
     }
 
     @Override
@@ -34,8 +36,10 @@ public class MyDictionary<K,V> implements IMyDict<K,V> {
     }
 
     @Override
-    public boolean containsKey(K key) {
-        return this.dict.containsKey(key);
+    public boolean contains(K key) {
+        synchronized (dict) {
+            return this.dict.containsKey(key);
+        }
     }
 
     @Override
@@ -67,5 +71,14 @@ public class MyDictionary<K,V> implements IMyDict<K,V> {
     @Override
     public Map getContent() {
         return this.dict;
+    }
+
+    @Override
+    public IMyDict<K, V> deepCopy() {
+        MyDictionary<K, V> copy = new MyDictionary<>();
+        for (K key : this.dict.keySet()) {
+            copy.insert(key, this.dict.get(key));
+        }
+        return copy;
     }
 }

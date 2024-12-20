@@ -42,4 +42,12 @@ public class MyStack<T> implements IMyStack<T> {
         }
         return "My stack: " + str;
     }
+
+    @Override
+    public T peek() throws EmptyStackExc {
+        if (stack.isEmpty()) {
+            throw new EmptyStackExc("Stack is empty!");
+        }
+        return stack.peek();
+    }
 }

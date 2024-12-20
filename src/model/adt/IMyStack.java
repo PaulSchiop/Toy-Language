@@ -7,4 +7,5 @@ public interface IMyStack<T> {
     public T pop() throws EmptyStackExc;
     public int size();
     public boolean isEmpty();
+    public T peek() throws EmptyStackExc;
 }

@@ -10,9 +10,10 @@ public interface IMyDict<Key, Value>{
     void insert(Key key, Value value);
     Value getValue(Key key) throws KeyNotFoundExc;
     void remove(Key key) throws KeyNotFoundExc;
-    boolean containsKey(Key key);
+    boolean contains(Key key);
     Set<Key> getKeys();
     Collection<Value> getValues();
+    public IMyDict<Key, Value> deepCopy();
 
     Map<IValue, IValue> getContent();
 }

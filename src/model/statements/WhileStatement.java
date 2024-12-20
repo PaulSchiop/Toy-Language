@@ -1,6 +1,7 @@
 package model.statements;
 
 import exceptions.*;
+import model.adt.IMyDict;
 import model.state.PrgState;
 import model.expressions.IExpression;
 import model.values.BoolValue;
@@ -42,5 +43,15 @@ public class WhileStatement implements IStatement{
     @Override
     public String toString() {
         return "while(" + this.exp.toString() + "){" + this.stmt.toString() + "}";
+    }
+
+    @Override
+    public IMyDict<String, IType> typeCheck(IMyDict<String, IType> typeEnv) throws StatementException {
+        IType typeExp = this.exp.typeCheck(typeEnv);
+        if (!typeExp.equals(new BoolType())) {
+            throw new StatementException("Condition is not a boolean");
+        }
+        this.stmt.typeCheck(typeEnv.deepCopy());
+        return typeEnv;
     }
 }

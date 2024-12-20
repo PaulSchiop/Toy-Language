@@ -1,9 +1,11 @@
 package model.statements;
 
+import model.adt.IMyDict;
 import model.state.PrgState;
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
 import exceptions.StatementException;
+import model.types.IType;
 
 import java.io.IOException;
 
@@ -31,5 +33,10 @@ public class CompStatement implements IStatement {
     @Override
     public String toString() {
         return this.first.toString() + "; " + this.second.toString();
+    }
+
+    @Override
+    public IMyDict<String, IType> typeCheck(IMyDict<String, IType> typeEnv) throws StatementException {
+        return second.typeCheck(first.typeCheck(typeEnv));
     }
 }

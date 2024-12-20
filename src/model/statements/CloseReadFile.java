@@ -1,9 +1,11 @@
 package model.statements;
 
+import model.adt.IMyDict;
 import model.adt.IMyHeap;
 import model.expressions.IExpression;
 import model.state.PrgState;
 import exceptions.*;
+import model.types.IType;
 import model.types.StringType;
 import model.values.StringValue;
 
@@ -46,5 +48,11 @@ public class CloseReadFile implements IStatement{
     @Override
     public String toString() {
         return "closeRFile(" + this.expression.toString() + ")";
+    }
+
+    @Override
+    public IMyDict<String, IType> typeCheck(IMyDict<String, IType> typeEnv) throws StatementException {
+        this.expression.typeCheck(typeEnv);
+        return typeEnv;
     }
 }

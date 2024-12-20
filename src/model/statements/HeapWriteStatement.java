@@ -1,8 +1,10 @@
 package model.statements;
 
 import exceptions.*;
+import model.adt.IMyDict;
 import model.state.PrgState;
 import model.expressions.IExpression;
+import model.types.IType;
 import model.types.RefType;
 import model.values.IValue;
 import model.values.RefValue;
@@ -18,10 +20,11 @@ public class HeapWriteStatement implements IStatement {
 
     @Override
     public PrgState execute(PrgState state) throws StatementException, ExpressionExceptions, ADTException {
-        if (!state.getSymTable().containsKey(this.varName)) {
+        if (!state.getSymTable().contains(this.varName)) {
             throw new StatementException("Variable not declared");
         }
-        if (!state.getSymTable().getValue(this.varName).getType().equals(new RefType())) {
+
+        if (!(state.getSymTable().getValue(this.varName).getType() instanceof RefType)) {
             throw new StatementException("Variable is not of RefType");
         }
 
@@ -48,5 +51,15 @@ public class HeapWriteStatement implements IStatement {
     @Override
     public String toString() {
         return "writeHeap(" + this.varName + ", " + this.exp.toString() + ")";
+    }
+
+    @Override
+    public IMyDict<String, IType> typeCheck(IMyDict<String, IType> typeEnv) throws StatementException {
+        IType typeVar = typeEnv.getValue(this.varName);
+        IType typeExp = this.exp.typeCheck(typeEnv);
+        if (!typeVar.equals(new RefType(typeExp))) {
+            throw new StatementException("Type mismatch");
+        }
+        return typeEnv;
     }
 }

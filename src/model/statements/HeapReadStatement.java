@@ -1,8 +1,10 @@
 package model.statements;
 
+import model.adt.IMyDict;
 import model.state.PrgState;
 import exceptions.*;
 import model.expressions.IExpression;
+import model.types.IType;
 import model.types.RefType;
 import model.values.IValue;
 import model.values.RefValue;
@@ -35,5 +37,14 @@ public class HeapReadStatement implements IStatement{
     @Override
     public IStatement deepCopy() {
         return null;
+    }
+
+    @Override
+    public IMyDict<String, IType> typeCheck(IMyDict<String, IType> typeEnv) throws StatementException {
+        IType typeExp = this.exp.typeCheck(typeEnv);
+        if (!typeExp.equals(new RefType())) {
+            throw new StatementException("The expression must be of RefType");
+        }
+        return typeEnv;
     }
 }

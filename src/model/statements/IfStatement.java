@@ -4,6 +4,7 @@ package model.statements;
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
 import exceptions.StatementException;
+import model.adt.IMyDict;
 import model.expressions.IExpression;
 import model.state.PrgState;
 import model.types.BoolType;
@@ -43,5 +44,16 @@ public class IfStatement implements IStatement{
     @Override
     public String toString() {
         return "if (" + this.exp.toString() + ") then (" + this.thenS.toString() + ") else (" + this.elseS.toString() + ")";
+    }
+
+    @Override
+    public IMyDict<String, model.types.IType> typeCheck(IMyDict<String, model.types.IType> typeEnv) throws StatementException {
+        model.types.IType typeExp = this.exp.typeCheck(typeEnv);
+        if (!typeExp.equals(new BoolType())) {
+            throw new StatementException("Condition is not a boolean");
+        }
+        this.thenS.typeCheck(typeEnv.deepCopy());
+        this.elseS.typeCheck(typeEnv.deepCopy());
+        return typeEnv;
     }
 }

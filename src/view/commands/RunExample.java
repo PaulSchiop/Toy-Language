@@ -19,7 +19,7 @@ public class RunExample extends Command
     {
         try
         {
-            controller.executeAllSteps();
+            controller.allSteps();
         }
         catch (Exception e)
         {

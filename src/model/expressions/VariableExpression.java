@@ -3,6 +3,7 @@ package model.expressions;
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
 import model.adt.IMyHeap;
+import model.types.IType;
 import model.values.BoolValue;
 import model.values.IValue;
 import model.adt.IMyDict;
@@ -16,7 +17,7 @@ public class VariableExpression implements IExpression{
 
     @Override
     public IValue evaluate(IMyDict<String, IValue> symTbl, IMyHeap heap) throws ExpressionExceptions, ADTException {
-        if (!symTbl.containsKey(this.id)) {
+        if (!symTbl.contains(this.id)) {
             throw new ExpressionExceptions("Variable '" + this.id + "' is not defined");
         }
 
@@ -37,5 +38,10 @@ public class VariableExpression implements IExpression{
     @Override
     public String toString() {
         return id;
+    }
+
+    @Override
+    public IType typeCheck(IMyDict<String, IType> typeEnv) throws ExpressionExceptions {
+        return typeEnv.getValue(id);
     }
 }

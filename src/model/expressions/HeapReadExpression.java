@@ -4,6 +4,7 @@ import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
 import model.adt.IMyDict;
 import model.adt.IMyHeap;
+import model.types.IType;
 import model.types.RefType;
 import model.values.IValue;
 import model.values.RefValue;
@@ -32,5 +33,14 @@ public class HeapReadExpression implements IExpression{
     @Override
     public String toString() {
         return "rH(" + expression.toString() + ")";
+    }
+
+    @Override
+    public IType typeCheck(IMyDict<String, IType> typeEnv) throws ExpressionExceptions {
+        IType type = expression.typeCheck(typeEnv);
+        if(type instanceof RefType refType) {
+            return refType.getInner();
+        }
+        throw new ExpressionExceptions("Expression does not evaluate to a reference");
     }
 }

@@ -3,9 +3,11 @@ package repository;
 import exceptions.RepoException;
 import model.state.PrgState;
 
+import java.util.List;
+
 public interface IRepo {
-    PrgState getCurrentProgram();
     void addProgram(PrgState program);
-    void addPrgState(PrgState prg);
-    void logPrgStateExec() throws RepoException;
+    List<PrgState> getPrgList();
+    void setPrgList(List<PrgState> prgList);
+    void logPrgStateExec(PrgState prg) throws RepoException;
 }

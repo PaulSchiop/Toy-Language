@@ -7,6 +7,7 @@ import model.state.PrgState;
 import model.statements.*;
 import model.types.IntType;
 import model.types.StringType;
+import model.values.BoolValue;
 import model.values.IntValue;
 import model.values.StringValue;
 import repository.IRepo;
@@ -196,7 +197,7 @@ public class Interpreter {
         Controller ctrl7 = new Controller(repo7, true);
         ctrl7.addProgram(ex7);
 
-        //Ref int v; new(v,20); Ref Ref int a; new(a,v); new(v,30); print(rH(rH(a)))
+        //Ref int v; new(v,20); Ref Ref int a; new(a,v); new(v,30); Ref int k; new(k, 15); print(rH(rH(a)))
         IStatement ex8 = new CompStatement(
                 new VariableDeclarationStatement("v", new model.types.RefType(new IntType())),
                 new CompStatement(
@@ -207,9 +208,12 @@ public class Interpreter {
                                         new HeapAllocStatement("a", new VariableExpression("v")),
                                         new CompStatement(
                                                 new HeapAllocStatement("v", new ValueExpression(new IntValue(30))),
-                                                new PrintStatement(
-                                                        new HeapReadExpression(
-                                                                new HeapReadExpression(new VariableExpression("a"))
+                                                new CompStatement(
+                                                        new VariableDeclarationStatement("k", new model.types.RefType(new IntType())),
+                                                        new PrintStatement(
+                                                                new HeapReadExpression(
+                                                                        new HeapReadExpression(new VariableExpression("a"))
+                                                                )
                                                         )
                                                 )
                                         )
@@ -256,6 +260,91 @@ public class Interpreter {
         Controller ctrl9 = new Controller(repo9, true);
         ctrl9.addProgram(ex9);
 
+        // Ref int v; new(v,20); Ref Ref int a; new(a,v); new(v,30); v = 0; print(rH(rH(a)))
+        IStatement ex10 = new CompStatement(
+                new VariableDeclarationStatement("v", new model.types.RefType(new IntType())),
+                new CompStatement(
+                        new HeapAllocStatement("v", new ValueExpression(new IntValue(20))),
+                        new CompStatement(
+                                new VariableDeclarationStatement("a", new model.types.RefType(new model.types.RefType(new IntType()))),
+                                new CompStatement(
+                                        new HeapAllocStatement("a", new VariableExpression("v")),
+                                        new CompStatement(
+                                                new HeapAllocStatement("v", new ValueExpression(new IntValue(30))),
+                                                new CompStatement(
+                                                        new AssignStatement("v", new ValueExpression(new model.values.IntValue(0))),
+                                                        new PrintStatement(
+                                                                new HeapReadExpression(
+                                                                        new HeapReadExpression(new VariableExpression("a"))
+                                                                )
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+
+        PrgState prg10 = new PrgState(ex10);
+        IRepo repo10 = new Repo("log10.txt");
+        Controller ctrl10 = new Controller(repo10, true);
+        ctrl10.addProgram(ex10);
+
+        IStatement ex11 = new CompStatement(
+                new VariableDeclarationStatement("v", new IntType()),
+                new CompStatement(
+                        new VariableDeclarationStatement("a", new model.types.RefType(new IntType())),
+                        new CompStatement(
+                                new AssignStatement("v", new ValueExpression(new BoolValue(false))),
+                                new CompStatement(
+                                        new HeapAllocStatement("a", new ValueExpression(new IntValue(22))),
+                                        new CompStatement(
+                                                new ForkStatement(
+                                                        new CompStatement(
+                                                                new HeapWriteStatement("a", new ValueExpression(new IntValue(30))),
+                                                                new CompStatement(
+                                                                        new AssignStatement("v", new ValueExpression(new IntValue(32))),
+                                                                        new CompStatement(
+                                                                                new PrintStatement(new VariableExpression("v")),
+                                                                                new PrintStatement(new HeapReadExpression(new VariableExpression("a")))
+                                                                        )
+                                                                )
+                                                        )
+                                                ),
+                                                new CompStatement(
+                                                        new PrintStatement(new VariableExpression("v")),
+                                                        new PrintStatement(new HeapReadExpression(new VariableExpression("a")))
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+
+        IRepo repo11 = new Repo("log11.txt");
+        Controller ctrl11 = new Controller(repo11, true);
+        ctrl11.addProgram(ex11);
+
+        IStatement testForkProgram = new CompStatement(
+                new VariableDeclarationStatement("v", new IntType()), // Declare variable v
+                new CompStatement(
+                        new AssignStatement("v", new ValueExpression(new IntValue(10))), // Assign 10 to v
+                        new CompStatement(
+                                new ForkStatement( // Fork a new thread
+                                        new CompStatement(
+                                                new AssignStatement("v", new ValueExpression(new IntValue(20))), // Change v in the forked thread
+                                                new PrintStatement(new VariableExpression("v")) // Print v in the forked thread
+                                        )
+                                ),
+                                new PrintStatement(new VariableExpression("v")) // Print v in the main thread
+                        )
+                )
+        );
+
+// Set up the repository and controller
+        IRepo repo = new Repo("testForkLog.txt"); // Repository for logging
+        Controller controller = new Controller(repo, true); // Controller to manage the program
+        controller.addProgram(testForkProgram);
 
 
         TextMenu menu = new TextMenu();
@@ -269,7 +358,9 @@ public class Interpreter {
         menu.addCommand(new RunExample("7", ex7.toString(), ctrl7));
         menu.addCommand(new RunExample("8", ex8.toString(), ctrl8));
         menu.addCommand(new RunExample("9", ex9.toString(), ctrl9));
-
+        menu.addCommand(new RunExample("10", ex10.toString(), ctrl10));
+        menu.addCommand(new RunExample("11", ex11.toString(), ctrl11));
+        menu.addCommand(new RunExample("12", testForkProgram.toString(), controller));
         menu.show();
     }
 }

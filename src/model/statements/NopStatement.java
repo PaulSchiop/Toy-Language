@@ -1,6 +1,8 @@
 package model.statements;
 
+import model.adt.IMyDict;
 import model.state.PrgState;
+import model.types.IType;
 
 public class NopStatement implements IStatement {
     @Override
@@ -16,5 +18,10 @@ public class NopStatement implements IStatement {
     @Override
     public String toString() {
         return "nop";
+    }
+
+    @Override
+    public IMyDict<String, IType> typeCheck(IMyDict<String, IType> typeEnv) {
+        return typeEnv;
     }
 }

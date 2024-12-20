@@ -1,8 +1,10 @@
 package model.statements;
 
+import model.adt.IMyDict;
 import model.state.PrgState;
 import exceptions.ADTException;
 import exceptions.ExpressionExceptions;
+import model.types.IType;
 import model.values.IValue;
 import model.expressions.IExpression;
 
@@ -28,5 +30,11 @@ public class PrintStatement implements IStatement{
     @Override
     public String toString() {
         return "print(" + this.exp.toString() + ")";
+    }
+
+    @Override
+    public IMyDict<String, IType> typeCheck(IMyDict<String, IType> typeEnv) {
+        this.exp.typeCheck(typeEnv);
+        return typeEnv;
     }
 }

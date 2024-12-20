@@ -1,0 +1,186 @@
+Program state id: 6
+ExeStack: My stack: bool a; int v; a = bool; if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: bool a; int v; a = bool; if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: int v; a = bool; if (a) then (v = 2) else (v = 3); print(v)
+bool a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: int v; a = bool; if (a) then (v = 2) else (v = 3); print(v)
+bool a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: int v; a = bool; if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: a -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: int v; a = bool; if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: a -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: a = bool; if (a) then (v = 2) else (v = 3); print(v)
+int v
+
+SymTable: My dictionary: a -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: a = bool; if (a) then (v = 2) else (v = 3); print(v)
+int v
+
+SymTable: My dictionary: a -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: a = bool; if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: a = bool; if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: if (a) then (v = 2) else (v = 3); print(v)
+a = bool
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: if (a) then (v = 2) else (v = 3); print(v)
+a = bool
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: if (a) then (v = 2) else (v = 3); print(v)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: print(v)
+if (a) then (v = 2) else (v = 3)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: print(v)
+if (a) then (v = 2) else (v = 3)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 6
+ExeStack: My stack: 
+SymTable: My dictionary: a -> null
+v -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+

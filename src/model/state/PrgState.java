@@ -1,6 +1,8 @@
 package model.state;
 import java.io.BufferedReader;
+import java.io.IOException;
 
+import exceptions.EmptyStackExc;
 import model.statements.IStatement;
 import model.adt.IMyDict;
 import model.adt.IMyStack;
@@ -17,13 +19,18 @@ public class PrgState {
     private IMyDict<StringValue, BufferedReader> fileTable;
     private IMyHeap heap;
 
+    private final int id;
+    private static int currentId = 0;
+
     public PrgState(IStatement st){
         this.exeStack = new MyStack<>();
         this.symTable = new MyDictionary<>();
         this.out = new MyList<>();
         this.fileTable = new MyDictionary<>();
         this.heap = new MyHeap();
+        this.originalProgram = st.deepCopy();
         exeStack.push(st);
+        this.id = getNewId();
     }
 
     public PrgState(IMyStack<IStatement> exeStack, IMyDict<String, IValue> symTable, IMyList<String> out, IMyHeap heap, IStatement originalProgram, IMyDict<StringValue, BufferedReader> fileTable) {
@@ -34,6 +41,19 @@ public class PrgState {
         exeStack.push(originalProgram);
         this.fileTable = fileTable;
         this.heap = heap;
+        this.id = getNewId();
+    }
+
+    public synchronized PrgState oneStep() throws IOException {
+        if (exeStack.isEmpty()) {
+            throw new EmptyStackExc("Program state stack is emmmmpty");
+        }
+        IStatement currentStatement = exeStack.pop();
+        return currentStatement.execute(this);
+    }
+
+    public Boolean isNotCompleted() {
+        return !this.exeStack.isEmpty();
     }
 
     public IMyDict<String, IValue> getSymTable() {
@@ -66,15 +86,22 @@ public class PrgState {
     }
 
     public IMyStack<IStatement> getExeStack() {
-        return exeStack;
+        return this.exeStack;
     }
 
     public String toString() {
-        return "ExeStack: " + exeStack.toString() + "\n" +
+        return "Program state id: " + id + "\n" +
+                "ExeStack: " + exeStack.toString() + "\n" +
                 "SymTable: " + symTable.toString() + "\n" +
                 "Out: " + out.toString() + "\n" +
                 "FileTable: " + fileTable.toString() + "\n"+
                 "Heap: " + heap.toString() + "\n";
+    }
+
+    private static synchronized int getNewId() {
+        currentId++;
+        //System.out.println("***************************New id: " + currentId);
+        return currentId;
     }
 
 }

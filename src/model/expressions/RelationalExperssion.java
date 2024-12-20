@@ -2,6 +2,8 @@ package model.expressions;
 
 import model.adt.IMyDict;
 import model.adt.IMyHeap;
+import model.types.BoolType;
+import model.types.IType;
 import model.values.BoolValue;
 import model.values.IValue;
 import exceptions.ExpressionExceptions;
@@ -72,5 +74,21 @@ public class RelationalExperssion implements IExpression{
     @Override
     public IExpression deepCopy() {
         return new RelationalExperssion(this.exp1.deepCopy(), this.exp2.deepCopy(), this.op);
+    }
+
+    @Override
+    public IType typeCheck(IMyDict<String, IType> typeEnv) throws ExpressionExceptions {
+        IType type1, type2;
+        type1 = this.exp1.typeCheck(typeEnv);
+        type2 = this.exp2.typeCheck(typeEnv);
+        if (type1.equals(new IntType())) {
+            if (type2.equals(new IntType())) {
+                return new BoolType();
+            } else {
+                throw new ExpressionExceptions("Second operand is not an integer");
+            }
+        } else {
+            throw new ExpressionExceptions("First operand is not an integer");
+        }
     }
 }

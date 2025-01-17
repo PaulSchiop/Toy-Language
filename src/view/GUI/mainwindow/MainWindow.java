@@ -94,14 +94,6 @@ public class MainWindow {
         }
     }
 
-    @FXML
-    private void changeProgramState(javafx.scene.input.MouseEvent event) {
-        if (prgStateIdListView.getSelectionModel().getSelectedItem() != null) {
-            populateExecutionStack();
-            populateSymTable();
-        }
-    }
-
     private PrgState getSelectedProgramState() {
         if (controller.getProgramStateList().isEmpty()) {
             return null;

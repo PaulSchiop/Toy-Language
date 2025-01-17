@@ -55,4 +55,9 @@ public class MyMap<K,V> implements IMyMap{
         }
         return "My map: " + str;
     }
+
+    @Override
+    public Set entrySet() {
+        return this.map.entrySet();
+    }
 }

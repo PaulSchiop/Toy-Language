@@ -12,4 +12,6 @@ public interface IMyMap<K,V> {
     boolean containsKey(K key);
     Set<K> getKeys();
     Map<K,V> getContent();
+    Set<Map.Entry<K, V>> entrySet();
+
 }

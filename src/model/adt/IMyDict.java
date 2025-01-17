@@ -15,5 +15,5 @@ public interface IMyDict<Key, Value>{
     Collection<Value> getValues();
     public IMyDict<Key, Value> deepCopy();
 
-    Map<IValue, IValue> getContent();
+    Map<Key, Value> getContent();
 }

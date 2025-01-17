@@ -8,4 +8,5 @@ public interface IMyStack<T> {
     public int size();
     public boolean isEmpty();
     public T peek() throws EmptyStackExc;
+    public Stack<T> getStack();
 }

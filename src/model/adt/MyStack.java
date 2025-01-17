@@ -50,4 +50,9 @@ public class MyStack<T> implements IMyStack<T> {
         }
         return stack.peek();
     }
+
+    @Override
+    public Stack<T> getStack() {
+        return this.stack;
+    }
 }

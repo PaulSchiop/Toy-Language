@@ -3,6 +3,7 @@ package model.adt;
 import model.values.IValue;
 
 import java.util.Map;
+import java.util.Set;
 
 public class MyHeap implements IMyHeap {
     private IMyMap<Integer, IValue> heap;

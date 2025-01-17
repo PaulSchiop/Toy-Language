@@ -29,6 +29,7 @@ public class Controller {
     public Controller(IRepo repo, boolean flag) {
         this.repo = repo;
         this.displayFlag = flag;
+        this.executor = Executors.newFixedThreadPool(2);
     }
 
     public ExecutorService getExecutor() {
@@ -109,7 +110,7 @@ public class Controller {
 
         try {
             while (!prgList.isEmpty()) {
-                this.performGarbageCollection(prgList.getFirst());
+                //this.performGarbageCollection(prgList.getFirst());
                 oneStepForAllPrg(prgList);
                 prgList.forEach(System.out::println);
                 prgList = removeCompletedPrg(repo.getPrgList());
@@ -141,5 +142,9 @@ public class Controller {
 
     public Repo getRepo() {
         return (Repo) this.repo;
+    }
+
+    public List<PrgState> getProgramStateList() {
+        return this.repo.getPrgList();
     }
 }

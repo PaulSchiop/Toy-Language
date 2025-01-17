@@ -104,4 +104,8 @@ public class PrgState {
         return currentId;
     }
 
+    public int getId() {
+        return id;
+    }
+
 }

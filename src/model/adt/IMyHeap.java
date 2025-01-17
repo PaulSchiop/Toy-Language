@@ -4,6 +4,7 @@ import model.values.IValue;
 
 import java.util.Collection;
 import java.util.Map;
+import java.util.Set;
 
 public interface IMyHeap {
     public int allocate(IValue value);
@@ -11,5 +12,5 @@ public interface IMyHeap {
     public void setValue(int key, IValue value);
     public IMyMap<Integer, IValue> getMap();
     public boolean containsKey(int key);
-    void setContent(Map<Integer, IValue> newHeapContent);
+    public void setContent(Map<Integer, IValue> newHeapContent);
 }

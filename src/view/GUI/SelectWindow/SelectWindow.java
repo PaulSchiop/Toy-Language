@@ -14,10 +14,7 @@ import javafx.stage.Stage;
 import model.expressions.*;
 import model.state.PrgState;
 import model.statements.*;
-import model.types.BoolType;
-import model.types.IType;
-import model.types.IntType;
-import model.types.StringType;
+import model.types.*;
 import model.values.BoolValue;
 import model.values.IntValue;
 import model.values.StringValue;
@@ -449,6 +446,82 @@ public class SelectWindow implements Initializable {
                 )
         );
         statementList.add(ex13);
+
+        IStatement ex14 = new CompStatement(
+                new VariableDeclarationStatement("cnt", new IntType()),
+                new CompStatement(
+                        new AssignStatement("cnt", new ValueExpression(new IntValue(5))),
+                        new CreateBarrierStatement("cnt", new VariableExpression("cnt"))
+                )
+        );
+        statementList.add(ex14);
+
+        IStatement ex15 = new CompStatement(
+                new VariableDeclarationStatement("v1", new RefType(new IntType())),
+                new CompStatement(
+                        new VariableDeclarationStatement("v2", new RefType(new IntType())),
+                        new CompStatement(
+                                new VariableDeclarationStatement("v3", new RefType(new IntType())),
+                                new CompStatement(
+                                        new VariableDeclarationStatement("cnt", new IntType()),
+                                        new CompStatement(
+                                                new HeapAllocStatement("v1", new ValueExpression(new IntValue(2))),
+                                                new CompStatement(
+                                                        new HeapAllocStatement("v2", new ValueExpression(new IntValue(3))),
+                                                        new CompStatement(
+                                                                new HeapAllocStatement("v3", new ValueExpression(new IntValue(4))),
+                                                                new CompStatement(
+                                                                        new CreateBarrierStatement("cnt", new HeapReadExpression(new VariableExpression("v2"))),
+                                                                        new CompStatement(
+                                                                                new ForkStatement(
+                                                                                        new CompStatement(
+                                                                                                new AwaitStatement("cnt"),
+                                                                                                new CompStatement(
+                                                                                                        new HeapWriteStatement("v1", new AritmeticalExpression(
+                                                                                                                new HeapReadExpression(new VariableExpression("v1")),
+                                                                                                                new ValueExpression(new IntValue(10)),
+                                                                                                                AritmeticalOperator.MUL
+                                                                                                        )),
+                                                                                                        new PrintStatement(new HeapReadExpression(new VariableExpression("v1")))
+                                                                                                )
+                                                                                        )
+                                                                                ),
+                                                                                new CompStatement(
+                                                                                        new ForkStatement(
+                                                                                                new CompStatement(
+                                                                                                        new AwaitStatement("cnt"),
+                                                                                                        new CompStatement(
+                                                                                                                new HeapWriteStatement("v2", new AritmeticalExpression(
+                                                                                                                        new HeapReadExpression(new VariableExpression("v2")),
+                                                                                                                        new ValueExpression(new IntValue(10)),
+                                                                                                                        AritmeticalOperator.MUL
+                                                                                                                )),
+                                                                                                                new CompStatement(
+                                                                                                                        new HeapWriteStatement("v2", new AritmeticalExpression(
+                                                                                                                                new HeapReadExpression(new VariableExpression("v2")),
+                                                                                                                                new ValueExpression(new IntValue(10)),
+                                                                                                                                AritmeticalOperator.MUL
+                                                                                                                        )),
+                                                                                                                        new PrintStatement(new HeapReadExpression(new VariableExpression("v2")))
+                                                                                                                )
+                                                                                                        )
+                                                                                                )
+                                                                                        ),
+                                                                                        new CompStatement(
+                                                                                                new AwaitStatement("cnt"),
+                                                                                                new PrintStatement(new HeapReadExpression(new VariableExpression("v3")))
+                                                                                        )
+                                                                                )
+                                                                        )
+                                                                )
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+        statementList.add(ex15);
 
         IStatement testForkProgram = new CompStatement(
                 new VariableDeclarationStatement("v", new IntType()), // Declare variable v

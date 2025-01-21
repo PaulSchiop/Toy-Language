@@ -19,7 +19,7 @@ public class ForkStatement implements IStatement{
     @Override
     public PrgState execute(PrgState state) throws StatementException, ExpressionExceptions, IOException, ADTException {
         IMyStack<IStatement> newStack = new MyStack<>();
-        return new PrgState(newStack, state.getSymTable().deepCopy(), state.getOut(), state.getHeap(), this.statement, state.getFileTable());
+        return new PrgState(newStack, state.getSymTable().deepCopy(), state.getOut(), state.getHeap(), this.statement, state.getFileTable(), state.getBarrier());
     }
 
     @Override

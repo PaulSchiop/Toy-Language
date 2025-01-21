@@ -16,7 +16,7 @@
             <Label text="Number of Program States" />
             <TextField fx:id="nrProgramStatesTextField" />
             <Label text="HeapTable" />
-            <TableView fx:id="heapTableView" prefHeight="118.0" prefWidth="351.0">
+            <TableView fx:id="heapTableView" prefHeight="97.0" prefWidth="351.0">
               <columns>
                 <TableColumn fx:id="addressColumn" prefWidth="75.0" text="Address" />
                 <TableColumn fx:id="valueColumn" prefWidth="75.0" text="Value" />
@@ -25,9 +25,9 @@
             <Label text="Out" />
             <ListView fx:id="outListView" prefHeight="23.0" prefWidth="351.0" />
             <Label text="File Table" />
-            <ListView fx:id="fileTableListView" prefHeight="71.0" prefWidth="351.0" />
+            <ListView fx:id="fileTableListView" prefHeight="23.0" prefWidth="351.0" />
             <Label text="Program State Identifiers" />
-            <ListView fx:id="prgStateIdListView" prefHeight="61.0" prefWidth="351.0" />
+            <ListView fx:id="prgStateIdListView" prefHeight="30.0" prefWidth="351.0" />
             <TableView fx:id="symTableView" prefHeight="116.0" prefWidth="351.0">
               <columns>
                 <TableColumn fx:id="varNameColumn" prefWidth="75.0" text="Var name" />
@@ -35,8 +35,16 @@
               </columns>
             </TableView>
             <Label text="Exe Stack" />
-            <ListView fx:id="exeStackListView" prefHeight="50.0" prefWidth="351.0" />
-            <Button fx:id="oneStepButton" mnemonicParsing="false" text="OneStep" onAction="#oneStepButtonHandler"/>
+            <ListView fx:id="exeStackListView" prefHeight="36.0" prefWidth="351.0" />
+            <Label text="Barrier Table" />
+            <TableView fx:id="barrierTableView" prefHeight="107.0" prefWidth="351.0">
+              <columns>
+                <TableColumn fx:id="barrierIndex" prefWidth="75.0" text="Index" />
+                <TableColumn fx:id="barrierValue" prefWidth="75.0" text="Value" />
+                  <TableColumn fx:id="valuesList" prefWidth="75.0" text="ValueList" />
+              </columns>
+            </TableView>
+            <Button fx:id="oneStepButton" mnemonicParsing="false" onAction="#oneStepButtonHandler" text="OneStep" />
          </children>
       </VBox>
    </children>

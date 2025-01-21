@@ -8,17 +8,19 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.util.Pair;
+import model.adt.IMyBarrier;
 import model.adt.IMyStack;
 import model.adt.MyPair;
 import model.state.PrgState;
 import model.statements.IStatement;
 import model.values.IValue;
 import model.values.StringValue;
+import javafx.util.Pair;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Objects;
+import java.util.*;
 
 public class MainWindow {
 
@@ -54,6 +56,15 @@ public class MainWindow {
     private ListView<String> exeStackListView;
 
     @FXML
+    private TableView<Map.Entry<Integer, Pair<Integer, List<Integer>>>> barrierTableView;
+    @FXML
+    private TableColumn<Map.Entry<Integer, Pair<Integer, List<Integer>>>, Integer> barrierIndex;
+    @FXML
+    private TableColumn<Map.Entry<Integer, Pair<Integer, List<Integer>>>, Integer> barrierValue;
+    @FXML
+    private TableColumn<Map.Entry<Integer, Pair<Integer, List<Integer>>>, String> valuesList;
+
+    @FXML
     private Button oneStepButton;
 
     @FXML
@@ -84,7 +95,31 @@ public class MainWindow {
             populateFileTable();
             populateIdentifiers();
             populateNumberProgramStates();
+            populateBarrierTable();
         }
+    }
+
+    private void populateBarrierTable() {
+        if (controller.getProgramStateList().isEmpty()) {
+            System.out.println("No program state available.");
+            return;
+        }
+
+        ObservableList<Map.Entry<Integer, Pair<Integer, List<Integer>>>> barrierData = FXCollections.observableArrayList(
+                controller.getProgramStateList().get(0)
+                        .getBarrier()
+                        .getBarrierTable()
+                        .entrySet()
+                        .stream()
+                        .toList()
+        );
+
+        barrierIndex.setCellValueFactory(data -> new SimpleObjectProperty<>(data.getValue().getKey()));
+        barrierValue.setCellValueFactory(data -> new SimpleObjectProperty<>(data.getValue().getValue().getKey()));
+        valuesList.setCellValueFactory(data -> new SimpleObjectProperty<>(data.getValue().getValue().getValue().toString()));
+
+        barrierTableView.setItems(barrierData);
+        barrierTableView.refresh();
     }
 
     private PrgState getSelectedProgramState() {

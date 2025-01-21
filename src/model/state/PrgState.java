@@ -18,7 +18,7 @@ public class PrgState {
     private IStatement originalProgram;
     private IMyDict<StringValue, BufferedReader> fileTable;
     private IMyHeap heap;
-
+    private IMyBarrier barrierTable;
     private final int id;
     private static int currentId = 0;
 
@@ -31,9 +31,10 @@ public class PrgState {
         this.originalProgram = st.deepCopy();
         exeStack.push(st);
         this.id = getNewId();
+        this.barrierTable = new MyBarrier();
     }
 
-    public PrgState(IMyStack<IStatement> exeStack, IMyDict<String, IValue> symTable, IMyList<String> out, IMyHeap heap, IStatement originalProgram, IMyDict<StringValue, BufferedReader> fileTable) {
+    public PrgState(IMyStack<IStatement> exeStack, IMyDict<String, IValue> symTable, IMyList<String> out, IMyHeap heap, IStatement originalProgram, IMyDict<StringValue, BufferedReader> fileTable, IMyBarrier barrierTable) {
         this.exeStack = exeStack;
         this.symTable = symTable;
         this.out = out;
@@ -42,6 +43,7 @@ public class PrgState {
         this.fileTable = fileTable;
         this.heap = heap;
         this.id = getNewId();
+        this.barrierTable = barrierTable;
     }
 
     public synchronized PrgState oneStep() throws IOException {
@@ -95,12 +97,12 @@ public class PrgState {
                 "SymTable: " + symTable.toString() + "\n" +
                 "Out: " + out.toString() + "\n" +
                 "FileTable: " + fileTable.toString() + "\n"+
-                "Heap: " + heap.toString() + "\n";
+                "Heap: " + heap.toString() + "\n"+
+                "BarrierTable: " + barrierTable.toString() + "\n";
     }
 
     private static synchronized int getNewId() {
         currentId++;
-        //System.out.println("***************************New id: " + currentId);
         return currentId;
     }
 
@@ -108,4 +110,11 @@ public class PrgState {
         return id;
     }
 
+    public IMyBarrier getBarrier() {
+        return barrierTable;
+    }
+
+    public void setBarrier(IMyBarrier barrierTable) {
+        this.barrierTable = barrierTable;
+    }
 }

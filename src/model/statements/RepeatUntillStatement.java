@@ -27,6 +27,9 @@ public class RepeatUntillStatement implements IStatement{
         IMyStack<IStatement> stack = state.getExeStack();
         IValue condValue = cond.evaluate(state.getSymTable(), state.getHeap());
 
+        if(stack.isEmpty())
+            stack.push(this.statement);
+
         BoolValue boolCond = (BoolValue) condValue;
         if (!boolCond.getVal()) {
             stack.push(this);

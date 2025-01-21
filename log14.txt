@@ -3221,3 +3221,114 @@ Out: My list: 100
 FileTable: My dictionary: 
 Heap: Heap: My map: 
 
+Program state id: 1
+ExeStack: My stack: int cnt; cnt = 5; CreateBarrierStatement(cnt, cnt)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: cnt = 5; CreateBarrierStatement(cnt, cnt)
+int cnt
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: cnt = 5; CreateBarrierStatement(cnt, cnt)
+int cnt
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: cnt = 5; CreateBarrierStatement(cnt, cnt)
+
+SymTable: My dictionary: cnt -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: cnt = 5; CreateBarrierStatement(cnt, cnt)
+
+SymTable: My dictionary: cnt -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: CreateBarrierStatement(cnt, cnt)
+cnt = 5
+
+SymTable: My dictionary: cnt -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: CreateBarrierStatement(cnt, cnt)
+cnt = 5
+
+SymTable: My dictionary: cnt -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: CreateBarrierStatement(cnt, cnt)
+
+SymTable: My dictionary: cnt -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: CreateBarrierStatement(cnt, cnt)
+
+SymTable: My dictionary: cnt -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: cnt -> 1
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+BarrierTable: BarrierTable:
+1 -> 5=[]
+
+

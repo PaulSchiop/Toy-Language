@@ -26,9 +26,7 @@ public class AssignStatement implements IStatement{
         }
         IValue val = state.getSymTable().getValue(this.id);
         IValue eval = this.exp.evaluate(state.getSymTable(), state.getHeap());
-        if (!val.getType().equals(eval.getType())) {
-            throw new StatementException("Types do not match");
-        }
+        System.out.println("AssignStatement: " + this.id + " = " + eval);
         state.getSymTable().insert(this.id, eval);
         return state;
     }

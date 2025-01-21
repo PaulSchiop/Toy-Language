@@ -30,4 +30,11 @@ public class RefValue implements IValue{
     public IType getType() {
         return new RefType(this.locationType);
     }
+
+    @Override
+    public boolean equals(IValue other) {
+        if (this == other) return true;
+        if (!(other instanceof RefValue refValue)) return false;
+        return this.address == refValue.address && this.locationType.equals(refValue.locationType);
+    }
 }

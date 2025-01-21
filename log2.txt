@@ -184,3 +184,181 @@ Out: My list: 18
 FileTable: My dictionary: 
 Heap: Heap: My map: 
 
+Program state id: 1
+ExeStack: My stack: int a; int b; a = 2ADD3MUL5; b = aADD1; print(b)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; a = 2ADD3MUL5; b = aADD1; print(b)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; a = 2ADD3MUL5; b = aADD1; print(b)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; a = 2ADD3MUL5; b = aADD1; print(b)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; a = 2ADD3MUL5; b = aADD1; print(b)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 2ADD3MUL5; b = aADD1; print(b)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 2ADD3MUL5; b = aADD1; print(b)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 2ADD3MUL5; b = aADD1; print(b)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 2ADD3MUL5; b = aADD1; print(b)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = aADD1; print(b)
+a = 2ADD3MUL5
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = aADD1; print(b)
+a = 2ADD3MUL5
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = aADD1; print(b)
+
+SymTable: My dictionary: a -> 17
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = aADD1; print(b)
+
+SymTable: My dictionary: a -> 17
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+b = aADD1
+
+SymTable: My dictionary: a -> 17
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+b = aADD1
+
+SymTable: My dictionary: a -> 17
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 17
+b -> 18
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 17
+b -> 18
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 17
+b -> 18
+
+Out: My list: 18
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+

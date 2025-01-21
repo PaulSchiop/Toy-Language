@@ -1,5 +1,6 @@
 package model.types;
 
+import model.values.BoolValue;
 import model.values.IValue;
 import model.values.IValue;
 
@@ -11,7 +12,7 @@ public class BoolType implements IType{
 
     @Override
     public IValue defaultValue() {
-        return null;
+        return new BoolValue(false);
     }
 
     @Override

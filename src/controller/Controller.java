@@ -110,7 +110,7 @@ public class Controller {
 
         try {
             while (!prgList.isEmpty()) {
-                //this.performGarbageCollection(prgList.getFirst());
+                this.performGarbageCollection(prgList.getFirst());
                 oneStepForAllPrg(prgList);
                 prgList.forEach(System.out::println);
                 prgList = removeCompletedPrg(repo.getPrgList());

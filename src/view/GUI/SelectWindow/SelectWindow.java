@@ -1,6 +1,8 @@
 package view.GUI.SelectWindow;
 
 import controller.Controller;
+import exceptions.ExpressionExceptions;
+import exceptions.StatementException;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -12,6 +14,8 @@ import javafx.stage.Stage;
 import model.expressions.*;
 import model.state.PrgState;
 import model.statements.*;
+import model.types.BoolType;
+import model.types.IType;
 import model.types.IntType;
 import model.types.StringType;
 import model.values.BoolValue;
@@ -63,6 +67,14 @@ public class SelectWindow implements Initializable {
             return;
         } else {
             IStatement selectedStatement = statementList.get(selectedProgram);
+            try {
+                IMyDict<String, IType> typeEnv = new MyDictionary<>();
+                selectedStatement.typeCheck(typeEnv);
+            } catch (StatementException | ExpressionExceptions e) {
+                Alert alert = new Alert(Alert.AlertType.ERROR, "Type check failed: " + e.getMessage(), ButtonType.OK);
+                alert.showAndWait();
+                return;
+            }
             selectedProgram++;
             IRepo repo = new Repo("log" + selectedProgram + ".txt");
             Controller controller = new Controller(repo, true);
@@ -286,7 +298,7 @@ public class SelectWindow implements Initializable {
                                                         "v",
                                                         new AritmeticalExpression( // v = v - 1;
                                                                 new VariableExpression("v"),
-                                                                new ValueExpression(new IntValue(1)),
+                                                                new ValueExpression(new BoolValue(true)),
                                                                 AritmeticalOperator.SUB
                                                         )
                                                 )
@@ -355,7 +367,88 @@ public class SelectWindow implements Initializable {
                 )
         );
         statementList.add(ex11);
-        statementList.add(ex11);
+
+        IStatement ex12 = new ForStatement(
+                "i",
+                new ValueExpression(new IntValue(0)),
+                new RelationalExperssion(
+                        new VariableExpression("i"),
+                        new ValueExpression(new IntValue(3)),
+                        RelationalOperator.SMALLER
+                ),
+                new AritmeticalExpression(
+                        new VariableExpression("i"),
+                        new ValueExpression(new IntValue(1)),
+                        AritmeticalOperator.ADD
+                ),
+                new PrintStatement(new VariableExpression("i"))
+        );
+        statementList.add(ex12);
+
+        IStatement ex13 = new CompStatement(
+                new VariableDeclarationStatement("v", new IntType()),
+                new CompStatement(
+                        new VariableDeclarationStatement("x", new IntType()),
+                        new CompStatement(
+                                new VariableDeclarationStatement("y", new IntType()),
+                                new CompStatement(
+                                        new AssignStatement("v", new ValueExpression(new IntValue(0))),
+                                        new CompStatement(
+                                                new RepeatUntillStatement(
+                                                        new CompStatement(
+                                                                new ForkStatement(
+                                                                        new CompStatement(
+                                                                                new PrintStatement(new VariableExpression("v")),
+                                                                                new AssignStatement(
+                                                                                        "v",
+                                                                                        new AritmeticalExpression(
+                                                                                                new VariableExpression("v"),
+                                                                                                new ValueExpression(new IntValue(1)),
+                                                                                                AritmeticalOperator.SUB
+                                                                                        )
+                                                                                )
+                                                                        )
+                                                                ),
+                                                                new AssignStatement(
+                                                                        "v",
+                                                                        new AritmeticalExpression(
+                                                                                new VariableExpression("v"),
+                                                                                new ValueExpression(new IntValue(1)),
+                                                                                AritmeticalOperator.ADD
+                                                                        )
+                                                                )
+                                                        ),
+                                                        new RelationalExperssion(
+                                                                new VariableExpression("v"),
+                                                                new ValueExpression(new IntValue(3)),
+                                                                RelationalOperator.EQUAL
+                                                        )
+                                                ),
+                                                new CompStatement(
+                                                        new AssignStatement("x", new ValueExpression(new IntValue(1))),
+                                                        new CompStatement(
+                                                                new NopStatement(),
+                                                                new CompStatement(
+                                                                        new AssignStatement("y", new ValueExpression(new IntValue(3))),
+                                                                        new CompStatement(
+                                                                                new NopStatement(),
+                                                                                new PrintStatement(
+                                                                                        new AritmeticalExpression(
+                                                                                                new VariableExpression("v"),
+                                                                                                new ValueExpression(new IntValue(10)),
+                                                                                                AritmeticalOperator.MUL
+                                                                                        )
+                                                                                )
+                                                                        )
+                                                                )
+                                                        )
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+        statementList.add(ex13);
 
         IStatement testForkProgram = new CompStatement(
                 new VariableDeclarationStatement("v", new IntType()), // Declare variable v

@@ -25,6 +25,7 @@ public class VariableDeclarationStatement implements IStatement{
         if (state.getSymTable().contains(this.name)){
             throw new StatementException("Variable already declared");
         }
+        System.out.println("VariableDeclarationStatement: " + this.name);
         state.getSymTable().insert(this.name, this.type.defaultValue());
         return state;
     }

@@ -19,8 +19,11 @@ public class IntValue implements IValue {
         return new IntType();
     }
 
+    @Override
     public boolean equals(IValue other) {
-        return other instanceof IntValue && ((IntValue) other).value == this.value;
+        if (this == other) return true;
+        if (!(other instanceof IntValue intValue)) return false;
+        return this.value == intValue.value;
     }
 
     @Override

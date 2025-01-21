@@ -1985,3 +1985,536 @@ Out: My list: 4
 FileTable: My dictionary: 
 Heap: Heap: My map: 
 
+Program state id: 1
+ExeStack: My stack: int v; v = 4; while(vGREATER0){print(v); v = vSUBbool}; print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUBbool}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUBbool}; print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUBbool}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 4; while(vGREATER0){print(v); v = vSUBbool}; print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUBbool}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUBbool}; print(v)
+v = 4
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUBbool}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: while(vGREATER0){print(v); v = vSUBbool}; print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+print(v)
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(v)
+while(vGREATER0){print(v); v = vSUBbool}
+print(v); v = vSUBbool
+
+SymTable: My dictionary: v -> 4
+
+Out: My list: 4
+4
+4
+4
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+

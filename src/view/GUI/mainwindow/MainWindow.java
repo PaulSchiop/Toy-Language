@@ -62,7 +62,6 @@ public class MainWindow {
             if (newValue != null) {
                 populateExecutionStack();
                 populateSymTable();
-                System.out.println("Selected program state: " + selectedStatement);
             }
         });
     }
@@ -79,17 +78,11 @@ public class MainWindow {
     private void populateTables() {
         if (controller != null) {
             populateHeapTable();
-            System.out.println("Populating Heap Table");
             populateSymTable();
-            System.out.println("Populating Sym Table");
             populateExecutionStack();
-            System.out.println("Populating Execution Stack");
             populateOutput();
-            System.out.println("Populating Output");
             populateFileTable();
-            System.out.println("Populating File Table");
             populateIdentifiers();
-            System.out.println("Populating Identifiers");
             populateNumberProgramStates();
         }
     }
@@ -230,7 +223,6 @@ public class MainWindow {
 
             controller.oneStepForAllPrg(controller.getProgramStateList());
             populateTables();
-            System.out.println("One step button pressed");
         } catch (IOException | InterruptedException | ControllerException e) {
             showErrorMessage(e.getMessage());
         }

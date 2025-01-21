@@ -22,9 +22,6 @@ public class WhileStatement implements IStatement{
     @Override
     public PrgState execute(PrgState state) throws StatementException, ExpressionExceptions, IOException, ADTException {
         IValue val = this.exp.evaluate(state.getSymTable(), state.getHeap());
-        if (!val.getType().equals(new BoolType())) {
-            throw new StatementException("Condition is not a boolean");
-        }
         if (((BoolValue)val).getVal()) {
             state.getExeStack().push(this);
             state.getExeStack().push(this.stmt);

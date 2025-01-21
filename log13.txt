@@ -197,3 +197,7858 @@ Out: My list: 10
 FileTable: My dictionary: 
 Heap: Heap: My map: 
 
+Program state id: 3
+ExeStack: My stack: int v; v = 10; fork(v = 20; print(v)); print(v)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = 10; fork(v = 20; print(v)); print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = 10; fork(v = 20; print(v)); print(v)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = 10; fork(v = 20; print(v)); print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = 10; fork(v = 20; print(v)); print(v)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: fork(v = 20; print(v)); print(v)
+v = 10
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: fork(v = 20; print(v)); print(v)
+v = 10
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: fork(v = 20; print(v)); print(v)
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: fork(v = 20; print(v)); print(v)
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: print(v)
+fork(v = 20; print(v))
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: print(v)
+fork(v = 20; print(v))
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: v = 20; print(v)
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: v = 20; print(v)
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 10
+
+Out: My list: 10
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: print(v)
+v = 20
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 10
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: print(v)
+v = 20
+
+SymTable: My dictionary: v -> 10
+
+Out: My list: 10
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: v -> 20
+
+Out: My list: 10
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: print(v)
+
+SymTable: My dictionary: v -> 20
+
+Out: My list: 10
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 20
+
+Out: My list: 10
+20
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (8ADD2) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 300
+300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 5; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+c = 5
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (300) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(a); print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(b)
+print(a)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(b)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 5
+
+Out: My list: 1
+2
+300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (12) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 300
+300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int a; int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int a
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int b; int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int b
+
+SymTable: My dictionary: a -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+int c
+
+SymTable: My dictionary: a -> 0
+b -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: a = 1; b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+a = 1
+
+SymTable: My dictionary: a -> 0
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = 2; c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+b = 2
+
+SymTable: My dictionary: a -> 1
+b -> 0
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = 6; switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+c = 6
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300)); print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+switch (aMUL10) case (bMULc) : (print(a); print(b)) case (10) : (print(100); print(200)) default : (print(300))
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(100); print(200)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(100); print(200)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(200)
+print(100)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(200)
+print(100)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(200)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+print(200)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 100
+200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(300)
+
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 100
+200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: a -> 1
+b -> 2
+c -> 6
+
+Out: My list: 100
+200
+300
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int v; int x; int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int x; int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int x; int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+int v
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int x; int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int x; int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+int x
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+int x
+
+SymTable: My dictionary: v -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int y; v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+int y
+
+SymTable: My dictionary: v -> 0
+x -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+int y
+
+SymTable: My dictionary: v -> 0
+x -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: v = 0; repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+v = 0
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+v = 0
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3); x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+fork(print(v); v = vSUB1); v = vADD1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+fork(print(v); v = vSUB1); v = vADD1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+fork(print(v); v = vSUB1)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+fork(print(v); v = vSUB1)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 2
+ExeStack: My stack: print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 2
+ExeStack: My stack: print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 2
+ExeStack: My stack: v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 2
+ExeStack: My stack: v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+fork(print(v); v = vSUB1); v = vADD1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 2
+ExeStack: My stack: v = vSUB1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+fork(print(v); v = vSUB1); v = vADD1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 2
+ExeStack: My stack: v = vSUB1
+
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+fork(print(v); v = vSUB1)
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 2
+ExeStack: My stack: 
+SymTable: My dictionary: v -> -1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+fork(print(v); v = vSUB1)
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+fork(print(v); v = vSUB1); v = vADD1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = vSUB1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+fork(print(v); v = vSUB1); v = vADD1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: v = vSUB1
+
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+fork(print(v); v = vSUB1)
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 3
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 0
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+fork(print(v); v = vSUB1)
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+v = vADD1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: print(v); v = vSUB1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 3
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+repeat {fork(print(v); v = vSUB1); v = vADD1} until (vEQUAL3)
+
+SymTable: My dictionary: v -> 3
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: v = vSUB1
+print(v)
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: v = vSUB1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: x = 1; nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: v = vSUB1
+
+SymTable: My dictionary: v -> 2
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; y = 3; nop; print(vMUL10)
+x = 1
+
+SymTable: My dictionary: v -> 3
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 4
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 1
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; y = 3; nop; print(vMUL10)
+x = 1
+
+SymTable: My dictionary: v -> 3
+x -> 0
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: y = 3; nop; print(vMUL10)
+nop
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: y = 3; nop; print(vMUL10)
+nop
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: y = 3; nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; print(vMUL10)
+y = 3
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; print(vMUL10)
+y = 3
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 0
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 3
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: nop; print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 3
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(vMUL10)
+nop
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 3
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(vMUL10)
+nop
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 3
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 3
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(vMUL10)
+
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 3
+
+Out: My list: 0
+1
+2
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: v -> 3
+x -> 1
+y -> 3
+
+Out: My list: 0
+1
+2
+30
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+

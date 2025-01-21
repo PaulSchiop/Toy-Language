@@ -24,6 +24,7 @@ public class StringValue implements IValue{
         return value;
     }
 
+    @Override
     public boolean equals(IValue val) {
         return val.getType().equals(new StringType()) && ((StringValue) val).getValue().equals(this.value) ;
     }

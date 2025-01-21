@@ -1,0 +1,3223 @@
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 0
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 200
+200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> null
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> null
+c -> 200
+
+Out: My list: 100
+200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 200
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 200
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> bool
+c -> 200
+
+Out: My list: 100
+200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: bool b; int c; b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+bool b
+
+SymTable: My dictionary: 
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: int c; b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+int c
+
+SymTable: My dictionary: b -> null
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: b = bool; c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+b = bool
+
+SymTable: My dictionary: b -> null
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (b) ? 100 : 200; print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+c = (b) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 0
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c); c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: c = (bool) ? 100 : 200; print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+c = (bool) ? 100 : 200
+
+SymTable: My dictionary: b -> bool
+c -> 100
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 200
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: print(c)
+
+SymTable: My dictionary: b -> bool
+c -> 200
+
+Out: My list: 100
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
+Program state id: 1
+ExeStack: My stack: 
+SymTable: My dictionary: b -> bool
+c -> 200
+
+Out: My list: 100
+200
+
+FileTable: My dictionary: 
+Heap: Heap: My map: 
+
